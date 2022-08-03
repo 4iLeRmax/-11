@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <div class="header">
+        <a href="index.html" class="logo">
+          <img src="./img/logo.svg">
+        </a>
+        <ul class="menu">
+          <li><a href="howToBuy.html">Как покупать</a></li>
+          <li><a href="sales.html">Распродажи</a></li>
+          <li><a href="price.html">Цены</a></li>
+          <li><a href="FAQ.html">Помощь</a></li>
+          <li><a href="bonus.html">Бонусы</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="shop.html">Магазины</a></li>
+        </ul>
+        <div class="menu__add_info">
+          <div class="login">
+            <img src="./img/User.svg">
+            <a href="#" class="header__enter">Вход</a>
+          </div>
+          <a href="#" class="header__btn btn">Связаться с нами</a>
+        </div>
+      </div>
+    </div>
+    <div class="bg__box">
+      <div class="bg__info second">
+        <p class="cookie">Главная  /  Цены</p>
+        <h1>Услуги доставки из Великобритании</h1>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="price__cards">
+        <div class="price__card">
+          <img src="./img/price/Ресурс 1 3.svg"class="price__img">
+          <h1 class="price__title">Ваш личный адрес<br>для покупок</h1>
+          <p class="price__sub_title">
+            на нашем современном<br>
+            автоматизированном складе в<br>
+            безналоговом Делавэре
+          </p>
+          <a href="#" class="price__btn">Бесплатно</a>
+        </div>
+        <div class="price__card">
+          <img src="./img/price/Ресурс 1 4.svg"class="price__img">
+          <h1 class="price__title">Объединение нескольких<br>посылок в одну</h1>
+          <p class="price__sub_title">
+            ведь часто отправлять несколько<br>
+            посылок в одной коробке гораздо<br>
+            выгоднее, чем по одной
+          </p>
+          <a href="#" class="price__btn">от £10.00</a>
+        </div>
+        <div class="price__card">
+          <img src="./img/price/Ресурс 1 2.svg"class="price__img">
+          <h1 class="price__title">Усиленная упаковка<br>по запросу</h1>
+          <p class="price__sub_title">
+            Мы дополнительно упакуем вашу<br>
+            посылку в пленку, коробку с<br>
+            двойными стенками.
+          </p>
+          <a href="#" class="price__btn">от £0.25</a>
+        </div>
+        <div class="price__card">
+          <img src="./img/price/Ресурс 1 5.svg"class="price__img">
+          <h1 class="price__title">Хранение входящих<br>посылок 30 дней</h1>
+          <p class="price__sub_title">
+            чем больше срок хранения<br>
+            посылок на складе – тем больше<br>
+            вы сможете собрать
+          </p>
+          <a href="#" class="price__btn">Бесплатно</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="delivery">
+      <div class="container">
+        <h1 class="delivery__title title two">Онлайн-калькулятор
+          стоимости доставки товара</h1>
+        <p class="delivery__sub_title sub_title">
+          Задайте необходимые параметры посылки, и калькулятор рассчитает приблизительную стоимость доставки вашей посылки из Англии.
+        </p>
+        <div class="choose">
+          <div class="choose__info">
+            <div class="location">
+              <h1 class="loaction__title">Страна:</h1>
+              <div class="location__info">
+                <img src="./img/GlobeHemisphereWest.svg">
+                <select name="" id="">
+                  <option value="">Украина</option>
+                  <option value="">Молдова</option>
+                  <option value="">Польша</option>
+                  <option value="">Румыния</option>
+                  <option value="">Литва</option>
+                  <option value="">Латвия</option>
+                </select>
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Город:</h1>
+              <div class="location__info">
+                <img src="./img/Buildings.svg">
+                <select name="" id="">
+                  <option value="">Киев</option>
+                  <option value="">одесса</option>
+                  <option value="">Харьков</option>
+                  <option value="">Херсон</option>
+                  <option value="">Львов</option>
+                  <option value="">Николаев</option>
+                </select>
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Индекс:</h1>
+              <div class="location__info">
+                <img src="./img/Notebook.svg">
+                <input type="text" placeholder="Введите индекс">
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Вес посылки:</h1>
+              <div class="location__info">
+                <img src="./img/Barbell.svg">
+                <input type="text" placeholder="0,5">
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Дополнительные услуги:</h1>
+              <div class="location__info">
+                <img src="./img/FileText.svg">
+                <select name="" id="">
+                  <option value="">Выберите услуги</option>
+                  <option value="">Доставка</option>
+                  <option value="">Переадресация</option>
+                  <option value="">Получение посылки</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <a href="" class="choose__btn btn">Рассчитать</a>
+        </div>
+        <div class="delivery__options">
+          <h1 class="delivery__options__title title two">Варианты доставки:</h1>
+          <div class="delivery__options__various">
+            <div class="delivery__option">
+              <div class="delivery__option__col">
+                <img src="./img/icon-11.svg">
+                <p class="delivery__option__col__text">УкрПошта</p>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Сроки:</p>
+                <h1 class="delivery__option__col__title">10-14 дней</h1>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Стоимость доставки:</p>
+                <h1 class="delivery__option__col__title">от £27.00<img src="./img/info.svg" onmouseover="changeItem()" onmouseout="rechangeItem()"></h1>
+                <div class="info">
+                  <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at expedita omnis quo enim ullam fugiat impedit voluptatem? Provident, officia!</h1>
+                </div>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Итого:</p>
+                <h1 class="delivery__option__col__title">£41.99</h1>
+              </div>
+              <div class="arrowBottom"></div>
+            </div>
+            <div class="delivery__option">
+              <div class="delivery__option__col">
+                <img src="./img/icon-22.svg">
+                <p class="delivery__option__col__text">новапошта</p>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Сроки:</p>
+                <h1 class="delivery__option__col__title">9-12 дней</h1>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Стоимость доставки:</p>
+                <h1 class="delivery__option__col__title">от £40.00<img src="./img/info.svg" onmouseover="changeItemS()" onmouseout="rechangeItemS()"></h1>
+                <div class="infoS">
+                  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cumque expedita temporibus fugiat aliquam a ratione ad, delectus nesciunt repellat reprehenderit deleniti nam labore neque libero dolorum, voluptatum itaque impedit.</h1>
+                </div>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Итого:</p>
+                <h1 class="delivery__option__col__title">£54.55</h1>
+              </div>
+              <div class="arrowBottom"></div>
+            </div>
+            <div class="delivery__option">
+              <div class="delivery__option__col">
+                <img src="./img/icon-33.svg">
+                <p class="delivery__option__col__text">delivery club</p>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Сроки:</p>
+                <h1 class="delivery__option__col__title">10-14 дней</h1>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Стоимость доставки:</p>
+                <h1 class="delivery__option__col__title">от £13.00<img src="./img/info.svg" onmouseover="changeItemT()" onmouseout="rechangeItemT()"></h1>
+                <div class="infoT">
+                  <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, quod?</h1>
+                </div>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Итого:</p>
+                <h1 class="delivery__option__col__title">£90.50</h1>
+              </div>
+              <div class="arrowBottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="container">
+        <h1 class="service__title title">Услуги склада</h1>
+        <div class="service__cards">
+          <div class="service__card">
+            <h1 class="service__card__title">Консолидация</h1>
+            <p class="service__card__sub_title">£1.00/1 трек</p>
+          </div>
+          <div class="service__card">
+            <h1 class="service__card__title">Заполнение декларации</h1>
+            <p class="service__card__sub_title">£1.00</p>
+          </div>
+          <div class="service__card">
+            <h1 class="service__card__title">Дополнительная упаковка</h1>
+            <p class="service__card__sub_title">£5.00</p>
+          </div>
+          <div class="service__card">
+            <h1 class="service__card__title">Упаковка xрупкиx предметов</h1>
+            <p class="service__card__sub_title">£10.00</p>
+          </div>
+          <div class="service__card">
+            <h1 class="service__card__title">Заполнение декларации</h1>
+            <p class="service__card__sub_title">£1.00</p>
+          </div>
+          <div class="service__card">
+            <h1 class="service__card__title">Разделение заказа</h1>
+            <p class="service__card__sub_title">£2.00</p>
+          </div>
+        </div>
+        <div class="service__card__info">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Сборка исходящей посылки вне очереди или экспресс сборка</h1>
+            <p class="service__card__info__col__sub_title">Чтобы сэкономить время</p>
+          </div>
+          <p class="service__card__sub_title">£5.00</p>
+        </div>
+        <div class="service__card__info">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Фото содержимого входящей посылки</h1>
+            <p class="service__card__info__col__sub_title">
+              3 фото за $5 или 10 фото за $8, а ещё можно попросить сфотографировать бирку или подарочный сертификат
+            </p>
+          </div>
+          <p class="service__card__sub_title">£1.00 за 1 фото</p>
+        </div>
+        <div class="service__card__info">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Возврат вещей в магазин</h1>
+            <p class="service__card__info__col__sub_title">
+              В случае, если вещи нельзя отправить в страну назначения, возврат в магазин для услуги "Виртуальный адрес"
+            </p>
+          </div>
+          <p class="service__card__sub_title">£10 + почтовые расходы</p>
+        </div>
+        <div class="service__card__info">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Проверка техники на работоспособность</h1>
+            <p class="service__card__info__col__sub_title">
+              Проверка электроники на включение/выключение (запрос через тикеты).
+            </p>
+          </div>
+          <p class="service__card__sub_title">£10</p>
+        </div>
+        <div class="service__card__info">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Удаление инвойса</h1>
+            <p class="service__card__info__col__sub_title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+          </div>
+          <p class="service__card__sub_title">Бесплатно</p>
+        </div>
+        <div class="service__card__info">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Дополнительная упаковка</h1>
+            <p class="service__card__info__col__sub_title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+          </div>
+          <p class="service__card__sub_title">По договоренности</p>
+        </div>
+        <h1 class="service__title title two">Покупки с операторами Okeypost.com</h1>
+        <div class="service__card__info two">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Быстрое оформление покупок в интернет-магазинах</h1>
+            <p class="service__card__info__col__sub_title">
+              Вы присылаете ссылки, а оформлением заказов занимаются операторы Почтой.ком. Они сделают покупки за вас,<br>проконтролируют доставку на склад и сообщат, когда всё будет готово.
+            </p>
+          </div>
+          <p class="service__card__sub_title">
+            5% от стоимости товаров<br>
+            минимум £7 для каждого магазина<br>
+            Но не менее £7 для каждого лота eBay
+          </p>
+        </div>
+        <div class="service__card__info last">
+          <div class="service__card__info__col">
+            <h1 class="service__card__title">Фото товара по услуге "Покупка с операторами"</h1>
+            <p class="service__card__info__col__sub_title">
+              Три фото выбранного вами товара, приобретенного по услуге "Полное сопровождение"
+            </p>
+          </div>
+          <p class="service__card__sub_title">£2</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg__box two">
+      <img src="./img/price/Ресурс 1 6.svg">
+      <div class="bg__info">
+        <h1 class="bg__box__title">
+          Попробуйте заказывать с оператором прямо сейчас.<br>
+          Пришлите ссылку на товар, его купят и доставят на наш<br>
+          склад в кратчайшие сроки.
+        </h1>
+        <div class="box__input">
+          <ion-icon name="link-outline"></ion-icon>
+          <input type="email" placeholder="Введите ссылку на товар">
+        </div>
+        <div class="box__add_info">
+          <a href="#" class="bg__btn btn">Отправить</a>
+          <p>
+            Нажимая на кнопку вы подтверждаете согласие с правилами<br>
+            предоставления услуги и политикой конфиденциальностиs
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="service oneLine">
+      <div class="container">
+        <h1 class="service__title title">Страхование</h1>
+        <div class="service__cards oneLine">
+          <div class="service__card">
+            <h1 class="service__card__title">Дополнительное страxование</h1>
+            <p class="service__card__sub_title">
+              5% от суммы на которую xотите застраxовать
+            </p>
+          </div>
+          <div class="service__card">
+            <h1 class="service__card__title">Почта России и ЕМС</h1>
+            <p class="service__card__sub_title">
+              Застраxовано по умолчанию на £50.00
+            </p>
+          </div>
+          <div class="service__card">
+            <h1 class="service__card__title">Мелкие пакеты</h1>
+            <p class="service__card__sub_title">
+              Застраxовано на £20.00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service two">
+      <div class="container">
+        <h1 class="service__title title">Дополнительная упаковка</h1>
+        <div class="service__cards">
+          <div class="service__card__info">
+            <div class="service__card__info__col">
+              <h1 class="service__card__title">Многослойная пленка</h1>
+              <p class="service__card__info__col__sub_title">Дополнительная защита покупок</p>
+            </div>
+            <p class="service__card__sub_title">£3.99</p>
+          </div>
+          <div class="service__card__info">
+            <div class="service__card__info__col">
+              <h1 class="service__card__title">Упаковка в пакет</h1>
+              <p class="service__card__info__col__sub_title">Надежно защищает от влаги</p>
+            </div>
+            <p class="service__card__sub_title">£1.99</p>
+          </div>
+          <div class="service__card__info">
+            <div class="service__card__info__col">
+              <h1 class="service__card__title">Упаковка в коробку с двойными стенками</h1>
+              <p class="service__card__info__col__sub_title">Надежно защищает от влаги</p>
+            </div>
+            <p class="service__card__sub_title">£4.99</p>
+          </div>
+          <div class="service__card__info">
+            <div class="service__card__info__col">
+              <h1 class="service__card__title">Наклейка “Обращаться с осторожностью”</h1>
+              <p class="service__card__info__col__sub_title">Дополнительная защита покупок</p>
+            </div>
+            <p class="service__card__sub_title">£0.25</p>
+          </div>
+          <div class="service__card__info">
+            <div class="service__card__info__col">
+              <h1 class="service__card__title">Наклейка “Хрупкий груз”</h1>
+              <p class="service__card__info__col__sub_title">Дополнительная защита покупок</p>
+            </div>
+            <p class="service__card__sub_title">£0.25</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg__box thirt">
+      <div class="bg__info thirt">
+        <h1 class="bg__info__thirt__title title">Остались вопросы? Спросите нас в соцсетях!</h1>
+        <div class="social__links">
+          <a href="#" class="media">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#" class="media">
+            <i class="fa-brands fa-viber"></i>
+          </a>
+          <a href="#" class="media">
+            <i class="fa-regular fa-message"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__col">
+          <img src="./img/logo.svg">
+          <div class="social__links">
+            <a href="#" class="media">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-brands fa-viber"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-regular fa-message"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h1 class="footer__col__title">О компании</h1>
+          <div class="footer__links">
+            <a href="#" class="footer__link">Услуги</a>
+            <a href="#" class="footer__link">Цены</a>
+            <a href="#" class="footer__link">Отзывы</a>
+            <a href="#" class="footer__link">Контакты</a>
+            <a href="#" class="footer__link">Вакансии</a>
+            <a href="#" class="footer__link">Соглашение о персональных данных</a>
+            <a href="#" class="footer__link">Условия использования</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h1 class="footer__col__title">Полезное</h1>
+          <div class="footer__links">
+            <a href="#" class="footer__link">Как работает наш сервис</a>
+            <a href="#" class="footer__link">Как покупать с оператором</a>
+            <a href="#" class="footer__link">Ответы на частые вопросы</a>
+            <a href="#" class="footer__link">Популярные магазины</a>
+            <a href="#" class="footer__link">Черный список магазинов</a>
+            <a href="#" class="footer__link">Актуальные распродажи</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h1 class="footer__col__title">Спецпроекты</h1>
+          <div class="footer__links">
+            <a href="#" class="footer__link">50% на первую доставку</a>
+            <a href="#" class="footer__link">Скидки для постоянных клиентов</a>
+            <a href="#" class="footer__link">Реферальная программа</a>
+            <a href="#" class="footer__link">Кэшбек Mr. Rebates и Rakuten</a>
+            <a href="#" class="footer__link">Stop Fraud</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__end">
+        <p class="footer__end__text">© 2021 Okeypost . Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/2b51017277.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

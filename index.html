@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <div class="header">
+        <a href="index.html" class="logo">
+          <img src="./img/logo.svg">
+        </a>
+        <ul class="menu">
+          <li><a href="howToBuy.html">Как покупать</a></li>
+          <li><a href="sales.html">Распродажи</a></li>
+          <li><a href="price.html">Цены</a></li>
+          <li><a href="FAQ.html">Помощь</a></li>
+          <li><a href="bonus.html">Бонусы</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="shop.html">Магазины</a></li>
+        </ul>
+        <div class="menu__add_info">
+          <div class="login">
+            <img src="./img/User.svg">
+            <a href="#" class="header__enter">Вход</a>
+          </div>
+          <a href="#" class="header__btn btn">Связаться с нами</a>
+        </div>
+      </div>
+    </div>
+    <div class="bg__box">
+      <div class="bg__info">
+        <h1 class="bg__title">Доставка товаров из Великобритании в Украину</h1>
+        <p class="bg__sub_title sub_title">Начните экономить до 80% на  шопинге. Регистрируйтесь в OkeyPost, чтобы покупать со   скидками в UK одежду, обувь, гаджеты известных брендов и  безопасно отправлять вещи в Украину.
+        </p>
+        <a href="#" class="bg__btn btn">Получить адрес в UK</a>
+      </div>
+      <img src="./img/img-1.svg">
+    </div>
+  </header>
+
+  <main>
+    <div class="buy">
+      <div class="container">
+        <h1 class="buy__title title">Насколько выгодно покупать?</h1>
+        <div class="buy__tabs">
+          <div class="buy__tabs_nav">
+            <img src="./img/arrow.svg" class="arrowTo Left">
+            <button class="buy__tabs_nav_btn active" type="button" data-tab="#tab_1">
+              <img src="./img/tab img-1.svg">
+              <h1 class="buy__tabs_nav_btn__name">Одежда</h1>
+            </button>
+            <button class="buy__tabs_nav_btn" type="button" data-tab="#tab_2">
+              <img src="./img/tab img-2.svg">
+              <h1 class="buy__tabs_nav_btn__name">Электроника</h1>
+            </button>
+            <button class="buy__tabs_nav_btn" type="button" data-tab="#tab_3">
+              <img src="./img/tab img-3.svg">
+              <h1 class="buy__tabs_nav_btn__name">Аксессуары</h1>
+            </button>
+            <button class="buy__tabs_nav_btn" type="button" data-tab="#tab_4">
+              <img src="./img/tab img-4.svg">
+              <h1 class="buy__tabs_nav_btn__name">Для детей</h1>
+            </button>
+            <button class="buy__tabs_nav_btn" type="button" data-tab="#tab_5">
+              <img src="./img/tab img-5.svg">
+              <h1 class="buy__tabs_nav_btn__name">Для спорта</h1>
+            </button>
+            <button class="buy__tabs_nav_btn" type="button" data-tab="#tab_6">
+              <img src="./img/tab img-6.svg">
+              <h1 class="buy__tabs_nav_btn__name">Косметика</h1>
+            </button>
+            <img src="./img/arrow.svg" class="arrowTo Right">
+          </div>
+          <div class="buy__tabs_content">
+            <div class="buy__tabs_item active" id="tab_1">
+              <div class="buy__tabs_item__main">
+                <div class="buy__tabs_item__col">
+                  <h1 class="buy__tabs_item__col__title">Columbia Barlow Pass 550 Turbodown Jacket</h1>
+                  <div class="buy__tabs_item__col__country_price">
+                    <img src="./img/r.svg">
+                    <div class="country__info">
+                      <p class="country__info__sub_title">Цена в России</p>
+                      <h1 class="country__info__title">7891,46₽</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="img">
+                  <div class="circle"></div>
+                  <img src="./img/Layer 1 1.png" class="mainImg">
+                </div>
+                <div class="buy__tabs_item__col">
+                  <h1 class="buy__tabs_item__col__title">Доставка одежды из Великобритании  от <span>£7.79</span></h1>
+                  <div class="buy__tabs_item__col__country_price">
+                    <img src="./img/England.svg">
+                    <div class="country__info">
+                      <p class="country__info__sub_title">Цена в UK</p>
+                      <h1 class="country__info__title"><span>£80.62</span></h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider">
+                <div class="slider__arrow prev">
+                  <div class="slider__clothes">
+                    <div class="slider__circle"></div>
+                    <img src="./img/t-shirt.png" onclick="imgSlider('./img/t-shirt.png')">
+                  </div>
+                  <img src="./img/arrow.svg" class="arrow">
+                </div>
+                <div class="slider__info">
+                  <p class="slider__sub_title">Срок доставки примерно 10 дней</p>
+                  <h1 class="slider__title">Вы экономите до <span>$119.56</span></h1>
+                </div>
+                <div class="slider__arrow next">
+                  <img src="./img/arrow.svg" class="arrow">
+                  <div class="slider__clothes">
+                    <div class="slider__circle"></div>
+                    <img src="./img/jeans.png" onclick="imgSlider('./img/jeans.png')"> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="buy__tabs_item" id="tab_2">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consectetur nesciunt perferendis sint tenetur, quas cum reprehenderit at! Quam sunt impedit iste id necessitatibus excepturi?
+              </p>
+            </div>
+            <div class="buy__tabs_item" id="tab_3">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ab distinctio expedita fugiat sed sit eum, est nemo debitis. Quis repellat veritatis illum minus ducimus sint. Sit porro eius molestias!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="buy__bar">
+          <div class="buy__col">
+            <img src="./img/icon-1.svg">
+            <p class="buy__text">Экономия<br>до 70%</p>
+          </div>
+          <div class="buy__col">
+            <img src="./img/icon-2.svg">
+            <p class="buy__text">Только подлинная<br>продукция</p>
+          </div>
+          <div class="buy__col">
+            <img src="./img/icon-3.svg">
+            <p class="buy__text">Оперативная<br>доставка</p>
+          </div>
+          <div class="buy__col">
+            <img src="./img/icon-4.svg">
+            <p class="buy__text">Огромный<br>выбор товаров</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg__box two">
+      <img src="./img/img-2.svg">
+      <div class="bg__info">
+        <h1 class="bg__title two">Поручите нашим мастерам шопинга оформить заказы в английских магазинах и освободите время для более важных дел.</h1>
+        <p class="bg__sub_title two sub_title">Такой способ покупки также подойдёт, если магазин принимает только английские карты.
+        </p>
+        <a href="#" class="bg__btn btn">Попробовать</a>
+      </div>
+    </div>
+
+    <div class="delivery">
+      <div class="container">
+        <h1 class="delivery__title title">OkeyPost удобная и быстрая доставка посылок из Великобритании </h1>
+        <p class="delivery__sub_title sub_title">
+          Рассчитайте стоимость доставки из Англии к вам домой. Мы получим ваши посылки на складе, при необходимости объединим несколько доставок в одну и отправим их к вам надежно упакованными.
+        </p>
+        <div class="choose">
+          <div class="choose__info">
+            <div class="location">
+              <h1 class="loaction__title">Страна:</h1>
+              <div class="location__info">
+                <img src="./img/GlobeHemisphereWest.svg">
+                <select name="" id="">
+                  <option value="">Украина</option>
+                  <option value="">Молдова</option>
+                  <option value="">Польша</option>
+                  <option value="">Румыния</option>
+                  <option value="">Литва</option>
+                  <option value="">Латвия</option>
+                </select>
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Город:</h1>
+              <div class="location__info">
+                <img src="./img/Buildings.svg">
+                <select name="" id="">
+                  <option value="">Киев</option>
+                  <option value="">одесса</option>
+                  <option value="">Харьков</option>
+                  <option value="">Херсон</option>
+                  <option value="">Львов</option>
+                  <option value="">Николаев</option>
+                </select>
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Индекс:</h1>
+              <div class="location__info">
+                <img src="./img/Notebook.svg">
+                <input type="text" placeholder="Введите индекс">
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Вес посылки:</h1>
+              <div class="location__info">
+                <img src="./img/Barbell.svg">
+                <input type="text" placeholder="0,5">
+              </div>
+            </div>
+            <div class="location">
+              <h1 class="loaction__title">Дополнительные услуги:</h1>
+              <div class="location__info">
+                <img src="./img/FileText.svg">
+                <select name="" id="">
+                  <option value="">Выберите услуги</option>
+                  <option value="">Доставка</option>
+                  <option value="">Переадресация</option>
+                  <option value="">Получение посылки</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <a href="" class="choose__btn btn">Рассчитать</a>
+        </div>
+        <div class="delivery__options">
+          <h1 class="delivery__options__title title">Варианты доставки:</h1>
+          <div class="delivery__options__various">
+            <div class="delivery__option">
+              <div class="delivery__option__col">
+                <img src="./img/icon-11.svg">
+                <p class="delivery__option__col__text">УкрПошта</p>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Сроки:</p>
+                <h1 class="delivery__option__col__title">10-14 дней</h1>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Стоимость доставки:</p>
+                <h1 class="delivery__option__col__title">от £27.00<img src="./img/info.svg" onmouseover="changeItem()" onmouseout="rechangeItem()"></h1>
+                <div class="info">
+                  <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, at expedita omnis quo enim ullam fugiat impedit voluptatem? Provident, officia!</h1>
+                </div>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Итого:</p>
+                <h1 class="delivery__option__col__title">£41.99</h1>
+              </div>
+              <div class="arrowBottom"></div>
+            </div>
+            <div class="delivery__option">
+              <div class="delivery__option__col">
+                <img src="./img/icon-22.svg">
+                <p class="delivery__option__col__text">новапошта</p>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Сроки:</p>
+                <h1 class="delivery__option__col__title">9-12 дней</h1>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Стоимость доставки:</p>
+                <h1 class="delivery__option__col__title">от £40.00<img src="./img/info.svg" onmouseover="changeItemS()" onmouseout="rechangeItemS()"></h1>
+                <div class="infoS">
+                  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cumque expedita temporibus fugiat aliquam a ratione ad, delectus nesciunt repellat reprehenderit deleniti nam labore neque libero dolorum, voluptatum itaque impedit.</h1>
+                </div>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Итого:</p>
+                <h1 class="delivery__option__col__title">£54.55</h1>
+              </div>
+              <div class="arrowBottom"></div>
+            </div>
+            <div class="delivery__option">
+              <div class="delivery__option__col">
+                <img src="./img/icon-33.svg">
+                <p class="delivery__option__col__text">delivery club</p>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Сроки:</p>
+                <h1 class="delivery__option__col__title">10-14 дней</h1>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Стоимость доставки:</p>
+                <h1 class="delivery__option__col__title">от £13.00<img src="./img/info.svg" onmouseover="changeItemT()" onmouseout="rechangeItemT()"></h1>
+                <div class="infoT">
+                  <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, quod?</h1>
+                </div>
+              </div>
+              <div class="delivery__option__col">
+                <p class="delivery__option__col__sub_title">Итого:</p>
+                <h1 class="delivery__option__col__title">£90.50</h1>
+              </div>
+              <div class="arrowBottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="container">
+        <h1 class="steps__title title">4 простых шага для ваших покупок в Великобритании </h1>
+        <div class="steps__cards">
+          <div class="steps__card">
+            <img src="./img/card-1.svg">
+            <div class="steps__card__title">вы ВЫБИРАЕТЕ ТОВАР</div>
+            <p class="steps__card__sub_title">в английском магазине, оплачиваете и<br>указываете <span>адрес склада</span> OkeyPost</p>
+          </div>
+          <div class="steps__card">
+            <img src="./img/card-2.svg">
+            <div class="steps__card__title">ПОКУПКИ ПРИХОДЯТ НА СКЛАД</div>
+            <p class="steps__card__sub_title">и появляются в вашем личном кабинете<br>на нашем сайте</p>
+          </div>
+          <div class="steps__card">
+            <img src="./img/card-3.svg">
+            <div class="steps__card__title">ОТПРАВЛЯЕМ ИХ К ВАМ ДОМОЙ</div>
+            <p class="steps__card__sub_title">в надежной упаковке, по выгодной<br>цене и очень быстро</p>
+          </div>
+          <div class="steps__card">
+            <img src="./img/card-4.svg">
+            <div class="steps__card__title">ЗАБИРАЕТЕ свою ПОСЫЛКУ</div>
+            <p class="steps__card__sub_title">в пункте выдачи, на почте<br>или с курьером</p>
+          </div>
+        </div>
+        <div class="steps__add_info">
+          <p class="steps__add_info__sub_title sub_title">Не хотите разбираться самостоятельно, наши мастера шопинга с радостью<br>купят все товары за вас.</p>
+          <a href="#" class="steps__add_info__btn btn">Быстрая покупка</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg__box two">
+      <img src="./img/img-3.svg">
+      <div class="bg__info">
+        <h1 class="title">Виртуальный тур по нашему складу<br>в реальном времени</h1>
+        <p class="bg__sub_title two sub_title">Вы можете всегда посмотреть на нашу слаженую работу на складе
+        </p>
+        <a href="#" class="bg__btn btn">Попробовать</a>
+      </div>
+    </div>
+
+    <div class="comment">
+      <div class="container">
+        <h1 class="comment__title title">
+          120 000 довольных клиентов в Украине<br>
+          уже сделали свой выбор
+        </h1>
+        <p class="comment__sub_title sub_title">
+          За последний год десятки тысяч наших клиентов заказали<br>
+          товары из Англии и оставили 19 633 отзыва
+        </p>
+        <div class="comment__cards">
+          <div class="comment__card">
+            <img src="./img/Иконка.svg">
+            <h1 class="comment__card__title buy__text">Больше не значит дороже</h1>
+            <p class="comment__card__sub_title steps__card__sub_title">
+              С ростом веса посылки цена за каждые 0.5 кг<br>
+              уменьшается в прогрессии.
+            </p>
+          </div>
+          <div class="comment__card">
+            <img src="./img/Иконка (1).svg">
+            <h1 class="comment__card__title buy__text">Быстрая обработка посылок</h1>
+            <p class="comment__card__sub_title steps__card__sub_title">
+              Посылка обрабатывается не дольше 48 часов<br>
+              после поступления на склад.
+            </p>
+          </div>
+          <div class="comment__card">
+            <img src="./img/Иконка (2).svg">
+            <h1 class="comment__card__title buy__text">SMS-уведомления</h1>
+            <p class="comment__card__sub_title steps__card__sub_title">
+              Отслеживайте весь процесс с помощью<br>
+              sms-уведомлений.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <div class="container">
+        <h1 class="reviews__title title">Отзывы и цитаты блогеров:</h1>
+        <div class="reviews__cards">
+          <div class="reviews__card">
+            <img src="./img/фон.png">
+            <div class="reviews__info">
+              <div class="row">
+                <h1 class="reviews__info__name">NIKOLAY S</h1>
+                <div class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <p class="reviews__info__comment sub_title">
+                  Ваша доставка самая быстрая и дешёвая!!!
+                </p>
+              </div>
+              <div class="row__date">
+                <p class="date">
+                  Дата:
+                  Город:
+                </p>
+                <p class="date__info">
+                  16 Ноября 2021
+                  Санкт-Петербург
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__card">
+            <img src="./img/фон (1).png">
+            <div class="reviews__info">
+              <div class="row">
+                <h1 class="reviews__info__name">DMITRIY D</h1>
+                <div class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <p class="reviews__info__comment sub_title">
+                  Пуховик Levi’s c eBay. Всё приехало
+                  быстро и целым.
+                </p>
+              </div>
+              <div class="row__date">
+                <p class="date">
+                  Дата:
+                  Город:
+                </p>
+                <p class="date__info">
+                  16 Ноября 2021
+                  Москва
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__card">
+            <img src="./img/фон (2).png">
+            <div class="reviews__info">
+              <div class="row">
+                <h1 class="reviews__info__name">VLADIMIR E</h1>
+                <div class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <p class="reviews__info__comment sub_title">
+                  Огонь, как всегда! Отдельное спасибо за доп.упаковку часики от Apple пришли в простом бумажном пакете )
+                </p>
+              </div>
+              <div class="row__date">
+                <p class="date">
+                  Дата:
+                  Город:
+                </p>
+                <p class="date__info">
+                  16 Ноября 2021
+                  Санкт-Петербург
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__card">
+            <img src="./img/фон (3).png">
+            <div class="reviews__info">
+              <div class="row">
+                <h1 class="reviews__info__name">Оксана</h1>
+                <div class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <p class="reviews__info__comment sub_title">
+                  Очень быстро, надежно! Как всегда большое спасибо за работу!
+                </p>
+              </div>
+              <div class="row__date">
+                <p class="date">
+                  Дата:
+                  Город:
+                </p>
+                <p class="date__info">
+                  16 Ноября 2021
+                  Odintsovo
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="reviews__btn btn">Все отзывы</a>
+      </div>
+
+      <div class="about">
+        <div class="container">
+          <h1 class="about__title title">Ваш личный адрес в Великобритании  для покупок</h1>
+          <p class="about__text">С нами вы получаете целых два адреса в UK! У нас есть два склада для приема посылок – в Лондоне и Манчестере. Указывайте в магазине тот из них, отправка на который обойдется дешевле (или покупка будет без налогов). Чаще всего в Лондоне наши клиенты заказывают одежду и обувь, а в Манчестер идут гаджеты и всё остальное. С OkeyPost вы всегда получаете максимальную выгоду!</p>
+          <p class="about__text">При доставке из UK в Россию все ваши товары обязательно страхуются. Прием посылок на наш склад, их обработка, удаление лишних коробок, хранение сроком до 70 дней – у нас полностью бесплатно. Мы также бесплатно проводим объединение посылок из разных магазинов в одну. Это необходимо для снижения стоимости доставки посылок из UK в Россию.</p>
+          <p class="about__text">У нас самая выгодная доставка! От $11.99 за посылку! А если у вас есть какие-то особенные требования, вроде проверки техники или дополнительной пленки для самых хрупких товаров, – операторы нашего склада с радостью выполнят их по спецзапросу.</p>
+          <p class="about__text">Okeypost.com – это надежно, быстро и выгодно. А в наших соцсетях вы всегда найдете информацию о лучших скидках fyukbqcrb[ магазинов. Не обязательно заходить в Черную пятницу или Prime </p>
+        </div>
+      </div>  
+    </div>
+
+    <div class="bg__box last">
+      <h1 class="box__title">Подпишитеть и будьте в курсе всех скидок и акций магазинов Великобритании!</h1>
+      <div class="box__input">
+        <ion-icon name="mail-open-outline"></ion-icon>
+        <input type="email" placeholder="Введите ваш email">
+      </div>
+      <a href="#" class="box__btn btn">Подписаться</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__col">
+          <img src="./img/logo.svg">
+          <div class="social__links">
+            <a href="#" class="media">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-brands fa-viber"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-regular fa-message"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h1 class="footer__col__title">О компании</h1>
+          <div class="footer__links">
+            <a href="#" class="footer__link">Услуги</a>
+            <a href="#" class="footer__link">Цены</a>
+            <a href="#" class="footer__link">Отзывы</a>
+            <a href="#" class="footer__link">Контакты</a>
+            <a href="#" class="footer__link">Вакансии</a>
+            <a href="#" class="footer__link">Соглашение о персональных данных</a>
+            <a href="#" class="footer__link">Условия использования</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h1 class="footer__col__title">Полезное</h1>
+          <div class="footer__links">
+            <a href="#" class="footer__link">Как работает наш сервис</a>
+            <a href="#" class="footer__link">Как покупать с оператором</a>
+            <a href="#" class="footer__link">Ответы на частые вопросы</a>
+            <a href="#" class="footer__link">Популярные магазины</a>
+            <a href="#" class="footer__link">Черный список магазинов</a>
+            <a href="#" class="footer__link">Актуальные распродажи</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h1 class="footer__col__title">Спецпроекты</h1>
+          <div class="footer__links">
+            <a href="#" class="footer__link">50% на первую доставку</a>
+            <a href="#" class="footer__link">Скидки для постоянных клиентов</a>
+            <a href="#" class="footer__link">Реферальная программа</a>
+            <a href="#" class="footer__link">Кэшбек Mr. Rebates и Rakuten</a>
+            <a href="#" class="footer__link">Stop Fraud</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__end">
+        <p class="footer__end__text">© 2021 Okeypost . Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/2b51017277.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
