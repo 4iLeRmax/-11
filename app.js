@@ -49,3 +49,25 @@ function imgSlider(item){
   mainImg.style.width = '449px';
 }
 
+let header = document.querySelector('.header');
+let btn = document.querySelector('.logo__btn');
+btn.addEventListener('click', function(){
+  header.classList.toggle('active');
+});
+
+const arrows = document.querySelector('.arrowBottom');
+// let block = document.querySelector('.delivery__option');
+const blocks = document.querySelectorAll('.delivery__option');
+
+// function deliveryF(){
+//   block.classList.toggle('active');
+// }
+// function deliveryS(){
+//   block.classList.toggle('active');
+// }
+
+blocks.forEach((block) => {
+  block.addEventListener("click", function info() {
+    block.classList.toggle('active');
+  });
+});
