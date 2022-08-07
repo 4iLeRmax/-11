@@ -44,7 +44,7 @@ li{
 .logo img{
   width: 190px;
 }
-.logo__btn{
+.logo__btn__size{
   display: none;
 }
 .menu{
@@ -837,7 +837,7 @@ li{
 /*----------HowToBuy----------*/
 .bg__info.second{
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   padding: 45px 0 85px;
   color: #fff;
 }
@@ -874,9 +874,9 @@ li{
 .easyBuy__suv_title{
   max-width: 922px;
 }
-.easyBuy__cards{
+/* .easyBuy__cards{
 
-}
+} */
 .easyBuy__card{
   padding: 40px 0;
   display: flex;
@@ -1441,6 +1441,7 @@ span.clearance{
   .title{
     font-size: 30px;
     line-height: 40px;
+    text-align: center;
   }
   .header{
     flex-direction: column;
@@ -1472,7 +1473,7 @@ span.clearance{
   .logo img{
     width: 150px;
   }
-  .logo__btn{
+  .logo__btn__size{
     display: block;
     font-size: 30px;
     color: var(--black);
@@ -1483,10 +1484,13 @@ span.clearance{
   }
   .menu li{
     margin: 3px 0;
+    width: 100%;
   }
   .menu li a{
     padding: 8px 35px;
     font-size: 20px;
+    width: 100%;
+    text-align: center;
   }
   .menu li a.active{
     background: var(--green);
@@ -1702,5 +1706,109 @@ span.clearance{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+  }
+
+  /*HowToBuy*/
+  /* .cookie{
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    width: 170px
+  } */
+  .easyBuy__card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .easyBuy__info__title h3{
+    font-size: 20px;
+  }
+  .easyBuy .btn{
+    display: block;
+    margin: 0 auto;
+  }
+  .bg__box.thirt{
+    
+  }
+  .bg__info.thirt{
+    flex-direction: column;
+  }
+  .bg__info.thirt .social__links{
+    padding: 20px 0;
+  }
+  .bg__info__thirt__title{
+    font-size: 35px;
+    /* max-width: 330px; */
+  }
+
+
+
+  /*----------SALES----------*/
+  .sales__title{
+    text-align: center;
+  }
+  .sales__cards{
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .sales__card{
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+    /* margin: 20px 0; */
+  }
+  .sales__card img{
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sales__card__info{
+    /* text-align: left; */
+  }
+  .sales__card__info__title{
+    margin: 15px 0 10px;
+  }
+  .sales__card__info__sub_title.two{
+    max-width: 300px;
+    /* margin: 0; */
+  }
+  .sales__card__info__sub_title.two.last{
+    margin: 18px 0;
+  }
+  .sales__card__info__sub_title.singleBig{
+    margin-bottom: 18px;
+  }
+
+
+  /*----------FAQ----------*/
+  .FAQ__search__input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .FAQ__card{
+    /* transition: height .3s ease; */
+    height: 100px;
+    padding: 30px 37px;
+  }
+  .FAQ__card.active{
+    height: 350px;
+  }
+  .FAQ__card__title{
+    color: #444;
+    font-size: 15px;
+    padding: 0;
+
+  }
+  .FAQ__card__main{
+    align-items: center;
+  }
+  .icon{
+    font-size: 24px;
+  }
+  .FAQ__card__info{
+    border: 0;
+    padding-top: 40px;
   }
 }
