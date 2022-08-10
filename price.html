@@ -8,6 +8,10 @@
   <title>Document</title>
 </head>
 <body>
+
+  <div class="preloader" id="page__preloader">
+    <div class="loader"></div>
+  </div>
   
   <header>
     <div class="container">
@@ -516,6 +520,12 @@
           item.classList.toggle('active');
       });
     });
+    window.addEventListener("scroll", () => {
+      if(document.querySelector('.header').classList.contains("active")){
+        document.querySelector('.header').classList.remove('active');
+      }
+      });
   </script>
+  <script src="./preloader.js"></script>
 </body>
 </html>

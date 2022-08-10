@@ -58,3 +58,4 @@ blocks.forEach((block) => {
     block.classList.toggle('active');
   });
 });
+
