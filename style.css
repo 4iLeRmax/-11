@@ -1908,8 +1908,9 @@ span.clearance{
   visibility: visible;
 }
 .preloader.done{
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
+  top: 100%;
 }
 .loader{
   width: 75px;
