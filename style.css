@@ -1454,7 +1454,7 @@ span.clearance{
     overflow: hidden;
     transition: height .3s ease;
     position: fixed;
-    z-index: 99;
+    z-index: 10;
     background: #fff;
     width: 100%;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
