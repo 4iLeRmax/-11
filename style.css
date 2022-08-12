@@ -1077,7 +1077,17 @@ span.clearance{
 .navigation__circle.active h1{
   color: var(--green);
 }
-.navigation__circle ion-icon{
+.navigation__arrow{
+  width: 42px;
+  height: 42px;
+  border: 1px solid #C0C9D7;
+  border-radius: 50%;
+  margin: 0 2px;
+  font-size: 20px;
+  position: relative;
+  transition: background color .15s ease;
+}
+.navigation__arrow ion-icon{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1759,15 +1769,15 @@ span.clearance{
     flex-direction: column;
     align-items: center;
   }
+  .easyBuy__card img{
+    margin: 0;
+  }
   .easyBuy__info__title h3{
     font-size: 20px;
   }
   .easyBuy .btn{
     display: block;
     margin: 0 auto;
-  }
-  .bg__box.thirt{
-    
   }
   .bg__info.thirt{
     flex-direction: column;
@@ -1777,7 +1787,6 @@ span.clearance{
   }
   .bg__info__thirt__title{
     font-size: 35px;
-    /* max-width: 330px; */
   }
 
 
