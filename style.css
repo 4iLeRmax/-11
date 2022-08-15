@@ -1485,7 +1485,7 @@ span.clearance{
   }
   .buy__tabs_nav{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
   .arrowTo{
     display: none;
@@ -1502,9 +1502,85 @@ span.clearance{
   .buy__tabs_nav_btn__name{
     margin-top: 10px;
   }
+
+
+
+
+
+
   .buy__tabs_content{
-    display: none;/*----------------------------------------------*/
+    display: flex;
   }
+  .buy__tabs_item.active{
+    padding: 100px 0;
+  }
+  .buy__tabs_item__col{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .buy__tabs_item__main .buy__tabs_item__col:nth-child(3){
+    /* border: 1px solid red; */
+    align-items: flex-end;
+  }
+  .buy__tabs_item__main .buy__tabs_item__col:nth-child(3) .buy__tabs_item__col__title{
+    text-align: right;
+  }
+  .buy__tabs_item__col__country_price{
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 100%;
+  }
+  .buy__tabs_item__col__country_price img{
+    width: 50px;
+  }
+  .country__info{
+    margin: 0;
+    margin-top: 10px;
+  }
+  .country__info__sub_title{
+    font-size: 15px;
+  }
+  .country__info__title{
+    font-size: 22px;
+  }
+
+  .img{
+    margin: 0 auto;
+  }
+  .img .circle{
+    width: 350px;
+    height: 350px;
+  }
+  .mainImg{
+    width: 100%;
+  }
+  .slider{
+    margin-top: 40px;
+  }
+  .slider__sub_title{
+    font-size: 15px;
+  }
+  .arrow{
+    margin: 0;
+  }
+  .slider__clothes{
+    display: none;
+  }
+  .slider__arrow .arrow{
+    margin: 0 20px;
+  }
+
+
+
+
+
+
+
   .buy__bar{
     columns: 0;
     column-rule: 0;
